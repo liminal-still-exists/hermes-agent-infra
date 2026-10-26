@@ -20,7 +20,7 @@ flowchart TB
             subgraph Hermes["Hermes Agent"]
                 WebUI["Hermes WebUI"]
                 Hindsight["Hindsight"]
-                Webhook["/monitor-off 웹훅"]
+                Webhook["웹훅<br/>/monitor-off"]
                 Script["monitor-off.py"]
             end
         end
