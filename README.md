@@ -35,4 +35,9 @@ flowchart TB
     class Router,TS,Net network
     class RC,Task,Monitor,Webhook,Script automation
     class WebUI,Hindsight service
+
+    style Computer fill:none,stroke:#777,stroke-width:1px
+    style Windows fill:none,stroke:#777,stroke-width:1px
+    style WSL fill:none,stroke:#777,stroke-width:1px
+    style Hermes fill:none,stroke:#777,stroke-width:1px
 ```
